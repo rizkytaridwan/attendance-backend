@@ -1,0 +1,31 @@
+{
+  "name": "bc",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "body-parser": "^1.20.3",
+    "connect-session-sequelize": "^7.1.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "moment-timezone": "^0.5.46",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.11.4",
+    "node-cron": "^3.0.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
